@@ -14,7 +14,7 @@ import kg.example.muratkanovmuratbeklalafo.service.FeedService;
 import java.time.format.DateTimeFormatter;
 
 @Route("test-result")
-@PageTitle("Hello, Vaadin!")
+@PageTitle("Lalafo(доска обьявлений)")
 public class MainView extends VerticalLayout {
     private final FeedService feedService;
 

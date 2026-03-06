@@ -9,6 +9,6 @@ lalafo:
   countryId: ${LALAFO_COUNTRY_ID}
   language: ${LALAFO_LANGUAGE}
   requestId: ${LALAFO_REQUEST_ID}
-  timeout: ${LALAFO_TIMEOUT}
+  timeout: 3000
 vaadin:
   launch-browser: true
