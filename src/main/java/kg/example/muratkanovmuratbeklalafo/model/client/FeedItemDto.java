@@ -12,7 +12,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class ItemDto {
+public class FeedItemDto {
     @JsonProperty("title")
     private String title;
     @JsonProperty("price")
@@ -22,5 +22,5 @@ public class ItemDto {
     @JsonProperty("created_time")
     private Long createdAt;
     @JsonProperty("images")
-    private List<ItemImageDto> images;
+    private List<FeedItemImageDto> images;
 }

@@ -12,5 +12,5 @@ import java.util.List;
 @NoArgsConstructor
 public class FeedResponse {
     @JsonProperty("items")
-    private List<ItemDto> items;
+    private List<FeedItemDto> items;
 }

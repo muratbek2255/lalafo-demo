@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class ItemImageDto {
+public class FeedItemImageDto {
     @JsonProperty("original_url")
     private String imageUrl;
 }
