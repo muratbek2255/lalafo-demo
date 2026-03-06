@@ -1,19 +1,17 @@
 package kg.example.muratkanovmuratbeklalafo.service.client;
 
-import kg.example.muratkanovmuratbeklalafo.config.LalafoConfiguration;
 import kg.example.muratkanovmuratbeklalafo.model.client.FeedItemDto;
 import kg.example.muratkanovmuratbeklalafo.model.client.FeedResponse;
-import lombok.Data;
+import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
 import java.util.List;
 
 @Service
-@Data
+@RequiredArgsConstructor
 public class LalafoIntegrationService {
     private final WebClient webClientWithTimeout;
-    private final LalafoConfiguration lalafoConfiguration;
 
     public List<FeedItemDto> getItems(){
         return webClientWithTimeout.get()

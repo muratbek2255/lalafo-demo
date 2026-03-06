@@ -10,13 +10,11 @@ import com.vaadin.flow.router.PageTitle;
 import com.vaadin.flow.router.Route;
 import kg.example.muratkanovmuratbeklalafo.model.view.FeedItemViewModel;
 import kg.example.muratkanovmuratbeklalafo.service.FeedService;
-import lombok.extern.slf4j.Slf4j;
 
 import java.time.format.DateTimeFormatter;
 
 @Route("test-result")
 @PageTitle("Hello, Vaadin!")
-@Slf4j
 public class MainView extends VerticalLayout {
     private final FeedService feedService;
 
