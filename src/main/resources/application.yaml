@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: muratkanov-muratbek-lalafo
+lalafo:
+  url: ${LALAFO_URL}
+  userAgent: ${LALAFO_USER_AGENT}
+  headerAccept: ${LALAFO_HEADER_ACCEPT}
+  device: ${LALAFO_DEVICE}
+  countryId: ${LALAFO_COUNTRY_ID}
+  language: ${LALAFO_LANGUAGE}
+  requestId: ${LALAFO_REQUEST_ID}
+  timeout: ${LALAFO_TIMEOUT}
+vaadin:
+  launch-browser: true
