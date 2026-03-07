@@ -12,3 +12,5 @@ lalafo:
   timeout: 3000
 vaadin:
   launch-browser: true
+server:
+  port: 9090
