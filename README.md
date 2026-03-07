@@ -22,5 +22,5 @@ java -jar muratkanov-muratbek-lalafo-0.0.1-SNAPSHOT.jar
 ## Or run through docker
 ```bash
 docker build -t title_of_container .
-docker run -p 9090:9090 title_of_container
+docker run --env-file .env -p 9090:9090 title_of_container
 ```
